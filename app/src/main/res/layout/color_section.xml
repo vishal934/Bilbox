@@ -1,0 +1,73 @@
+<!-- res/layout/activity_color_selection.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Display the assembled parts -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/assembledPartsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" />
+
+    <!-- Color options -->
+    <RadioGroup
+        android:id="@+id/colorOptionsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/assembledPartsRecyclerView"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="50dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioColorOption1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red" />
+
+        <RadioButton
+            android:id="@+id/radioColorOption2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Blue" />
+        <RadioButton
+            android:id="@+id/radioColorOption3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gray" />
+
+        <RadioButton
+            android:id="@+id/radioColorOption4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Yellow" />
+        <RadioButton
+            android:id="@+id/radioColorOption5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Green" />
+
+        <!-- Add more color options as needed -->
+
+    </RadioGroup>
+
+    <!-- Button to apply the selected color -->
+    <Button
+        android:id="@+id/applyColorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colorOptionsGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Apply Color" />
+
+
+
+</RelativeLayout>

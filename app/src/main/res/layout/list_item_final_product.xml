@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Part image -->
+    <ImageView
+        android:id="@+id/finalPartImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/car"
+    android:scaleType="centerCrop"
+    android:layout_gravity="center"/>
+
+    <!-- Part name -->
+    <TextView
+        android:id="@+id/finalPartName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Part Name"
+        android:textSize="16sp"
+        android:layout_gravity="center"/>
+
+    <!-- Colored rectangle for part color -->
+    <View
+        android:id="@+id/finalPartColor"
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/material_dynamic_primary0"
+    android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bilbox</string>
+    <string name="product_image_description">White Car</string>
+    <string name="product_description_text">I shot this while doing a job for a luxury automotive storage facility in Baltimore, MD. I wanted to create an ominous sense of intrigue, giving the feeling of a space that was both expansive and enclosed. I enjoy the journey my eyes take from the focal point of the headlamps to the contours of the Cameros body, and then to the backdrop of stacked automobiles.</string>
+    <string name="start_button_text">Start</string>
+    <string name="part_image_description">wheel </string>
+
+
+</resources>
